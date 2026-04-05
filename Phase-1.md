@@ -17,6 +17,8 @@ I configured a small network consisting of:
 The Windows Server was promoted to a Domain Controller for the domain:
 corp.local
 
+<img width="624" height="351" alt="Picture1" src="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538" />
+
 This included setting up:
 - Active Directory Domain Services (AD DS)
 - DNS for domain name resolution
@@ -30,6 +32,8 @@ After configuring the domain, I created user accounts inside Active Directory to
 - ashton.user (standard user)
 - it.admin (administrative-style account)
 
+<img width="624" height="351" alt="Picture2" src="https://github.com/user-attachments/assets/78d8bb14-7da3-4c21-9cab-7926672a36eb" />
+
 This allowed me to test authentication and user management within the domain.
 
 ---
@@ -38,14 +42,17 @@ This allowed me to test authentication and user management within the domain.
 
 I then joined the Windows 11 client machine to the domain and verified that domain authentication was working correctly.
 
+<img width="624" height="351" alt="Picture3" src="https://github.com/user-attachments/assets/de584ae9-4f9a-445d-8c26-d537c45d35f0" />
+
 To confirm this, I logged in as a domain user and used:
 whoami
 
 Which returned:
 corp/ashton.user
 
-## Key Takeaways
+<img width="624" height="351" alt="Picture4" src="https://github.com/user-attachments/assets/aea51b78-1f6a-422a-8ff6-37d9683eaaac" />
 
+## Key Takeaways
 - Active Directory relies heavily on DNS — incorrect DNS settings will break domain functionality
 - Account context (who you are logged in as) matters more than expected
 - Building a domain environment requires both configuration and validation
