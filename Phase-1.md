@@ -2,13 +2,14 @@
 
 ## Overview
 
-For this phase of my home lab, I focused on building a basic Windows domain environment from scratch. The goal was to simulate a real-world enterprise setup where systems are centrally managed and users authenticate through Active Directory.
+For this phase of my home lab, I focused on building a basic Windows domain environment from scratch. The goal was to simulate a real-world enterprise setup where systems are centrally managed and users authenticate through Active Directory. 
+This environment serves as a virtual playground where I can experiment with new concepts, learn tools, and simulate both real-world attacks and day-to-day administrative tasks such as password resets, user management, and Group Policy configuration. Ultimately, this gives me a hands-on way to build and manage my own small-scale enterprise environment. 
 
 ---
 
 ## What I Built
 
-I configured a small network consisting of:
+I set up a small network consisting of:
 
 - Windows Server 2022 (Domain Controller)
 - Windows 11 (Client Machine)
@@ -22,6 +23,11 @@ corp.local
 This included setting up:
 - Active Directory Domain Services (AD DS)
 - DNS for domain name resolution
+
+## Challenges I Ran Into
+
+- Initial domain controller promotion failed due to weak/blank Administrator password requirements
+- Resolved by setting a compliant local Administrator password and rerunning prerequisites
 
 ---
 
@@ -68,4 +74,4 @@ By the end of this phase, I successfully:
 - Joined a client machine to the domain
 - Verified domain authentication
 
-This environment will serve as the foundation for future phases, including monitoring, detection, and attack simulation.
+This environment will serve as the foundation for future phases, including monitoring, detection, and attack simulation!
