@@ -18,7 +18,9 @@ I set up a small network consisting of:
 The Windows Server was promoted to a Domain Controller for the domain:
 corp.local
 
-<img width="624" height="351" alt="Picture1" src="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538" />
+<a href="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538">
+  <img src="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538" width="700">
+</a>
 
 This included setting up:
 - Active Directory Domain Services (AD DS)
