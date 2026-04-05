@@ -37,8 +37,8 @@ This included setting up:
 
 After configuring the domain, I created user accounts inside Active Directory to simulate a real environment:
 
-- ashton.user (standard user)
-- it.admin (administrative-style account)
+- ashton.user (standard user) **Ashton Day**
+- it.admin (administrative-style account) **Andrew Dey**
 
 <a href="https://github.com/user-attachments/assets/460c7426-7dcc-4651-bea8-7f06af442f07">
   <img src="https://github.com/user-attachments/assets/460c7426-7dcc-4651-bea8-7f06af442f07" width="1000">
