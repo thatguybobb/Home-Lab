@@ -19,7 +19,7 @@ The Windows Server was promoted to a Domain Controller for the domain:
 corp.local
 
 <a href="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538">
-  <img src="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538" width="700">
+  <img src="https://github.com/user-attachments/assets/25802bac-fc53-4674-b6aa-fdd23415e538" width="1000">
 </a>
 
 This included setting up:
