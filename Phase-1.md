@@ -40,7 +40,9 @@ After configuring the domain, I created user accounts inside Active Directory to
 - ashton.user (standard user)
 - it.admin (administrative-style account)
 
-<img width="624" height="351" alt="Picture2" src="https://github.com/user-attachments/assets/78d8bb14-7da3-4c21-9cab-7926672a36eb" />
+<a href="https://github.com/user-attachments/assets/460c7426-7dcc-4651-bea8-7f06af442f07">
+  <img src="https://github.com/user-attachments/assets/460c7426-7dcc-4651-bea8-7f06af442f07" width="1000">
+</a>
 
 This allowed me to test authentication and user management within the domain.
 
